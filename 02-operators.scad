@@ -9,7 +9,8 @@ translate([0,0,20])
 
 
 /*
- * difference() "subtracts" all additional items from the first item.
+ * difference() "subtracts" all additional items
+ * from the first item.
  */
 translate([-10,0,0]) render()
 difference()
@@ -20,7 +21,8 @@ difference()
 
 
 /*
- * intersection() find the volume that is in all of the items.
+ * intersection() find the volume that is in
+ * all of the items.
  */
 translate([10,0,0]) render()
 intersection()
