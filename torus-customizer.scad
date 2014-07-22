@@ -6,16 +6,16 @@
 n = 180; // [1:300]
 
 // Number of twists to make
-twists = 2; // [1:10]
+twists = 3; // [1:10]
 
 // Radius of the ring
-radius = 50; // [1:50]
+radius = 30; // [1:50]
 
 // Height of the waves
-height = 20; // [1:20]
+height = 8; // [1:20]
 
 // Size of the blocks
-size = 12; // [1.0:10.0]
+size = 4; // [1.0:10.0]
 
 // Phase of the shrinking
 phase = 5; // [-45:45]
@@ -24,7 +24,7 @@ phase = 5; // [-45:45]
 tilt = 0; // [-90:90]
 
 // Display the ground?
-ground = false; //
+ground = true; // [true,false]
 
 translate([0,0,8+4/2])
 for (i = [1:n*2])
