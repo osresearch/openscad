@@ -25,6 +25,13 @@ translate([-15,0,10/2]) cube([10,10,10], center=true);
 
 
 /*
+ * Sphere takes one argument, the radius.
+ */
+translate([-35,0,8]) sphere(r=8);
+
+
+
+/*
  * cylinder can take two arguments: radius and height
  * Note that the cylinder is centered at (0,0,0)
  * goes to (0,0,h)
@@ -37,6 +44,7 @@ translate([18,0,0]) cylinder(r=5, h=10);
  * r1, r2 and the height to make a cone.
  */
 translate([30,0,0]) cylinder(r1=5, r2=0, h=10);
+
 
 
 /*
